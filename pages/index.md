@@ -23,11 +23,25 @@ hero:
       link: https://github.com/holynet-zone
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🔒
+    title: Dual Encryption
+    details: "Choose between AES-GCM and ChaCha20-Poly1305 for optimal security-performance balance"
+  - icon: 🌐
+    title: Hybrid Transport
+    details: "UDP for raw speed + WebSockets for firewall penetration. Best of both worlds!"
+  - icon:
+        light: assets/rust.svg
+        dark: assets/rust-dark.svg
+    title: Blazing Fast
+    details: "Rust-powered core for minimal overhead and maximum throughput"
+  - icon: 🔁
+    title: Robust Reconnection
+    details: "Automatically restores VPN session after network interruptions"
+  - icon: 🦀
+    title: Memory Safe
+    details: "Rust foundation prevents whole classes of vulnerabilities"
+  - icon: 📱
+    title: Cross-Platform
+    details: "Works everywhere: Windows, macOS, Linux, iOS, Android"
 ---
 
